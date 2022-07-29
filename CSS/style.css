@@ -1,0 +1,86 @@
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+header ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+header li {
+    font-size: 17px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+header li:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    color: black;
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+
+
+.heroImg {
+    height: 500px;
+    padding: 25px;
+}
+
+.heroImg .content {
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.heroImg a {
+    padding: 5px;
+    margin: 15px auto;
+}
+
+.class-content {
+    width:500px;
+    margin: 0 auto;
+}
+
+footer {
+    display: block;
+    background-color: #373738;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li 
+{
+    padding: 5px;
+}
+
+footer ul
+{
+    vertical-align: top;
+    display: inline-block;
+}
