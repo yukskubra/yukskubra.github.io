@@ -84,3 +84,42 @@ footer ul
     vertical-align: top;
     display: inline-block;
 }
+
+.gridList {
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridContainer {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.work p {
+    text-align: left;
+    color: black;
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+}
+
+.work {
+    padding-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+    .gridList {
+        display: grid;
+        row-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .gridContainer {
+        display: grid;
+        row-gap: 50px;
+        grid-template: none;
+        justify-content: center;
+    }
+}

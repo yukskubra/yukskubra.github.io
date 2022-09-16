@@ -1,0 +1,15 @@
+.container section {
+    width: 100%;
+}
+
+.col-sm-12 .card {
+    width: 100%!important;
+}
+
+.jumbotron-fluid {
+    background-color: white!important;
+}
+
+.jumbotron-fluid img{
+    width: 100%;
+}
